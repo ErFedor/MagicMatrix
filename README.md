@@ -1,0 +1,2 @@
+# MagicMatrix
+MagicMatrix generation app
