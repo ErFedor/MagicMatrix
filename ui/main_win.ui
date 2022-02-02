@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_win</class>
+ <widget class="QWidget" name="main_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>317</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>317</width>
+    <height>407</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MagicMatrix</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label4">
+       <property name="text">
+        <string>ВВЕДИТЕ РАЗМЕР МАГИЧЕСКОГО КВАДРАТА:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="n_edit"/>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QTextEdit" name="res_edit"/>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QPushButton" name="dwld_but">
+     <property name="text">
+      <string>СКАЧАТЬ</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="gen_but">
+     <property name="text">
+      <string>Сгенерировать</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
